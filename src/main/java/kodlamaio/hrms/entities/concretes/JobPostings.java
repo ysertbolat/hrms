@@ -50,5 +50,4 @@ public class JobPostings {
     @ManyToOne()
     @JoinColumn(name = "city_id")
     private Cities cities;
-
 }

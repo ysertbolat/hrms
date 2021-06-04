@@ -27,6 +27,6 @@ public class Companies {
     @Column(name = "domain")
     private String domain;
 
-    @OneToMany(mappedBy = "company")
+    @OneToMany(mappedBy = "jobPosting_id")
     private List<JobPostings> jobPostings;
 }
