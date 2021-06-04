@@ -27,5 +27,5 @@ public class Departments {
 
     @JsonIgnore
     @OneToMany(mappedBy = "department")
-    private List<Education> educations;
+    private List<Educations> educations;
 }

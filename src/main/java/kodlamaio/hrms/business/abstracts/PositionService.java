@@ -8,5 +8,4 @@ import java.util.List;
 
 public interface PositionService {
     DataResult<List<Position>> getAll();
-    Result add(Position position);
 }
